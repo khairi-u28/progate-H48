@@ -1,0 +1,67 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+    padding: 100px 80px;
+  }
+
+body {
+  font-family:"Verdana";
+}
+
+img{
+   /* width: 300px;
+	height: 400px;*/
+    width: 100%;
+	height: auto;
+}
+
+.section-title {
+  color: blueviolet;  
+  border-bottom:1px solid ;  
+  font-size:30px ;
+}
+
+.contents{
+    height:500px;  
+    
+  }
+
+ 
+.contents-item{
+    width:33%;
+    height:auto;
+    float:left;  
+  }
+
+  .contents-item:hover img {
+
+    transform: scale(1.15);
+    fill-opacity:25%;
+    transition: transform .25s ease;
+    }
+
+
+  .contents-item p{
+  font-size:24px;
+  padding-top:15px;
+  text-align: center;
+  padding-bottom:10px;  
+  color:blueviolet ;
+  }
+/*
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+*/
+/* Ketik code Anda dibawah */
+
